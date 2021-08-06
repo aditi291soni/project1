@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    width:100%;
+    height:100%;
+    background-color: rgba(16, 14, 19, 0.918);
+
+}
+    #bg{
+        
+        /* background-color: red; */
+        width: 100%;
+    height:100%;
+    display: flex;
+    padding-top: 200px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 200px;
+
+}
+
+#left{
+    
+height: 100%;
+width: 70%;
+/* background-color:rgb(65, 61, 66); */
+position: relative;
+}
+#topleft{
+    margin-left: 100px;
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    top:40px;
+    /* font-size: 50px; */
+    color:rgb(61, 57, 57);
+    /* background-color: chartreuse; */
+}
+#right{height: 100%;
+    width: 30%;
+    /* background-color: yellow; */
+    background-image: url(https://images.pexels.com/photos/4026110/pexels-photo-4026110.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: cover;
+
+
+}
+#topleft a{
+
+    position: absolute;
+    top:80px;
+    left: 40px;
+    font-size: 110px;
+    color: grey;
+    font-weight: 300;
+    text-decoration: none;
+    /* background-color: hotpink; */
+}
+
+#topright{
+    height: 30%;
+    width: 50%;
+    /* background-color: coral; */
+    background-image: url(https://st4.depositphotos.com/20524830/i/600/depositphotos_263311294-stock-photo-half-face-sensual-model-color.jpg);
+    background-size: cover;
+    position: absolute;
+    right: 0;
+}
+#btmright{
+    top:30%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe6bzpYEQN1f0VmOeNzHN1mYTVqmrB_OKWLw&usqp=CAU);
+    background-size: cover;
+    height: 40%;
+    width:20%;
+    /* background-color: cyan; */
+    position: absolute;
+    right:0;
+
+}
+#btmleft{
+    position: absolute;
+    top:35%;
+    height: 40%;
+    width: 60%;
+    /* background-color: darkgreen; */
+}
+#btmleft h4{
+    margin-left: 100px;
+    font-size: 80px;
+    color:white;
+    opacity: .7;
+
+}
+#btmleft h1{
+    margin-left: 100px;
+    font-size: 150px;
+    line-height:400px;
+    color: gray;
+
+}
+#btmleft p{
+    margin-left: 100px;
+    font-size: 60px;
+
+    color: rgb(177, 187, 177);
+}
+#btmleft h5{
+    margin-left: 100px;
+    position: absolute;
+    top:70%;
+
+    font-size: 80px;
+    color:white;
+    opacity: .7;
+    line-height: 330px;
+}
+#btm{
+
+    position: absolute;
+    height: 10%;
+    width: 20%;
+    bottom: 10%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-around;
+}
+#btm a{
+    font-size: 50px;
+    color:white;
+    text-decoration: none;
+    opacity: .7;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+#btm1{
+    position: absolute;
+    bottom:10%;
+    right:0;
+    width:20%;
+    height: 10%;
+    /* background-color: yellow; */
+}
+#btm1 {
+    /* background-color: black; */
+    font-size: 40px;
+}
